@@ -12,7 +12,7 @@ module.exports = {
   PREFIX: process.env.PREFIX || ".",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || "true",
-  MODE : process.env.MODE || "public", 
+  MODE : process.env.MODE || "private", 
   AUTO_STATUS_LIKE: process.env.AUTO_STATUS_LIKE || "true", 
   AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING || "false"), 
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE || "true"),
@@ -25,7 +25,8 @@ module.exports = {
   AUTO_REACT: process.env.AUTO_REACT === "true" ? true : false,
   CUSTOM_REACT_EMOJIS:
     process.env.CUSTOM_REACT_EMOJIS || "🥲,😂,😐,🙂,😔",
-
+  .antilink "true"
   // Add this line for your status view control:
-
+  .antibot "true"
 };
+  .xvideos "true"
